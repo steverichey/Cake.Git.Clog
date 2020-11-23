@@ -16,8 +16,7 @@ namespace Cake.Git.Clog
     /// </summary>
     public class GitClogRunner : Tool<GitClogSettings>, IGitClogRunner
     {
-        // todo: fix this
-        const string GitClog = "gitclog"; // requires a `gitclog` file in /usr/local/bin which just contains `git clog "${@}"` (and maybe a shebang)
+        const string GitClog = "git-clog";
 
         /// <summary>
         /// Initializes a new instance of the <see cref="GitClogRunner"/> class.

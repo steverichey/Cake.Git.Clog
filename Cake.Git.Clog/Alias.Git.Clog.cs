@@ -11,13 +11,13 @@ using Cake.Core.Annotations;
 namespace Cake.Git.Clog
 {
     /// <summary>
-    /// Contains aliases for clog.
+    /// Contains aliases for git-clog.
     /// </summary>
-    [CakeAliasCategory("git clog")]
+    [CakeAliasCategory("git-clog")]
     public static class ClogAliases
     {
         /// <summary>
-        /// Run clog in the given directory.
+        /// Run git-clog in the given directory.
         /// </summary>
         /// <code>
         /// Task("GitClog")
